@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Semi+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sideBar{
+    background-color:rgb(174, 174, 174);
+    width: 10vw;
+    height: 100vh;
+    /* position: absolute;
+    bottom: 0px; */
+}
+
+.sideBar a{
+    text-decoration: none;
+    color: black;
+}
+
+.mainArea{
+    width: 90vw;
+    /* background-color: yellow; */
+}
+
+.sideBar li{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
+    margin-left: 10px;
+    list-style: none;
+    padding: 30px 15px;
+    font-size: 28px;
+}
+
+.text{
+    margin-left: 70px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.text .this{
+    padding: 6px 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.text .name{
+    padding: 6px 10px;
+}
+.text .mySpecsInMain{
+    padding: 10px;
+    font-size: 20px;
+}
+.text .btn{
+    margin:20px 0 0 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+.text .blogInMain{
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.img{
+    width: 477px;
+    height: 376px;
+}
+.mainAreaContainer{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    height: 377px;
+    width: 80vw;
+    background-color: grey;
+    margin-left: 77px;
+    margin-top: 190px;
+}
+
+.container{
+    display: flex;
+
+}
+
+.text .btn:hover{
+    background-color: light purple;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.mainAreaContainer .btn:hover{
+    background-color: purple;
+}  
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.createContainer .title{
+    margin:20px 20px 20px 10px;
+    text-align: center;
+    /* border: 1px solid grey; */
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 20%;
+    font-size: 16px;
+}
+
+
+
+.createContainer .btn{
+    margin:20px 0 0 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+.allBlogsContainer{
+    margin: 150px 77px;
+    height: 400px;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+.allBlogsContainer .firstBox{
+    width: 30%;
+    height: 379px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    background-color: grey;    
+}
+.allBlogsContainer .secondBox{
+    width: 30%;
+    height: 379px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    background-color: grey;
+}
+.allBlogsContainer .thirdBox{
+    width: 30%;
+    height: 379px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    background-color: grey;
+}
+
+.returnTitle{
+    width: 237px;
+    height: 36px;
+    border: 1px solid black;
+    margin-top: 8px;
+    margin-left: 15px;
+    background-color: white;    
+    border-radius: 10px;
+}
+
+.returnTextArea{
+    width: 90%;
+    height: 75%;
+    border: 1px solid black;
+    margin: 10px 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.returnTitleAndImages{
+    margin-top: 10px;
+    display: flex;
+}
+
+.returnTitleAndImages .delete{
+    height: 15%;
+    width: 15%;
+    /* background-color:; */
+}
+
+.returnTitleAndImages .pen{
+    height: 10%;
+    width: 10%;
+    padding-top: 10px;
+    /* background-color: white; */
+}
+
+.imagesSection{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5px;
+}
+.imagesSection .hamburger{
+    height: 25px;
+    width: 33px;
+}
+
+.imagesSection .cross{
+    height: 23px;
+    width: 30px;
+}
+ 
+#submit:hover{
+    background-color: purple;
+}
+
+.hamburger{
+    cursor: pointer;
+    /* display: none; */
+}
+.cross{
+    cursor: pointer;
+}
+
+.sideBarGo{
+    transform: translate(-10vw, 0);
+}
+
+#imagesSection{
+    position: absolute;
+    /* justify-content: ; */
+}
+
+
+
+
+.createContainer{
+    /* display: grid;
+    justify-content: center; */
+    /* margin: 100px 77px; */
+    /* background-color: red; */
+    /* border: 2px solid black; */
+
+
+    /* height: 550px; */
+    height: 400px;
+
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textArea{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin:20px 0 0 10px;
+    /* width: 60%; */
+    font-size: 14px;
+    /* height: 55%; */
+    margin-bottom: 10px;
+}
